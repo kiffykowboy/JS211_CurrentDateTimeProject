@@ -16,11 +16,21 @@ const displayDate = () => {
 
 // Write a JavaScript program to convert a number to a string.
 
+const numberToString = (num) =>{
+
+  return num.toString();
+
+}
+
 
 
 // Write a JavaScript program to convert a string to the number.
 
+const stringToNumber = (str) =>{
 
+  return Number(str);
+
+}
 
 // Write a JavaScript program that takes in different datatypes and prints out whether they are a:
   // * Boolean
@@ -31,9 +41,20 @@ const displayDate = () => {
   // * String
   
 
+  const datTypeConv = (dtc) =>{
+
+    return typeof(dtc)
+
+  }
+
   
 // Write a JavaScript program that adds 2 numbers together.
 
+const add = (num1 , num2) => {
+
+  return num1 + num2;
+  
+}
 
 
 // Write a JavaScript program that runs only when 2 things are true.
