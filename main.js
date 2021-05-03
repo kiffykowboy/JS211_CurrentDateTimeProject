@@ -40,32 +40,76 @@ const stringToNumber = (str) =>{
   // * NaN
   // * String
   
+  const input1 = true;
+  const input2 = 74;
+  const input3 = 'jerome';
+  const input4 = {}
+  const input5 = []
 
-  const datTypeConv = (dtc) =>{
+  const nameOfFunction = (anything) =>{
 
-    return typeof(dtc)
+    return typeof(anything)
 
   }
 
-  
+
+
+  console.log(typeof input1)
+  console.log(typeof input2)
+  console.log(typeof input3)
+  console.log(typeof input4)
+  console.log(typeof input5)
+
 // Write a JavaScript program that adds 2 numbers together.
 
 const add = (num1 , num2) => {
 
   return num1 + num2;
-  
+
 }
 
 
 // Write a JavaScript program that runs only when 2 things are true.
 
+const true1 = true
+const true2 = true
+
+const t2t = (true1 , true2) => {
+
+if (true1 && true2)
+
+
+return "1 and 2 are true"
+}
+
+t2t(true1 , true2)
 
 
 // Write a JavaScript program that runs when 1 of 2 things are true.
 
 
+const t2f = (true1 , false1) => {
+
+if (true1 || false1)
+
+
+return "1 is true and 2 is false"
+}
+
+t2t(true1 , false1)
 
 // Write a JavaScript program that runs when both things are not true.  
+
+
+const f2f = (true1 , false1) => {
+
+if (!true1 && !false1)
+
+
+return "1 and 2 are false"
+}
+
+f2f(true1 , false1)
 
 // ***************************
 //         PART TWO
