@@ -16,10 +16,16 @@ const displayDate = () => {
 
 // Write a JavaScript program to convert a number to a string.
 
+// const num = 74
+
 const numberToString = (num) =>{
+  num = 74
+  console.log(num)
+  // return num.toString();
+  const strNum = num.toString()
+  console.log(typeof strNum)
 
-  return num.toString();
-
+  document.getElementById("display-element1").innerHTML = strNum;
 }
 
 
@@ -28,8 +34,13 @@ const numberToString = (num) =>{
 
 const stringToNumber = (str) =>{
 
-  return Number(str);
+  // return Number(str);
+  str = "4"
+  console.log(str)
+  const numStr = Number(str);
+  console.log(typeof numStr)
 
+  document.getElementById("display-element2").innerHTML = numStr;
 }
 
 // Write a JavaScript program that takes in different datatypes and prints out whether they are a:
@@ -48,7 +59,13 @@ const stringToNumber = (str) =>{
 
   const nameOfFunction = (anything) =>{
 
-    return typeof(anything)
+    // return typeof(anything)
+
+    anything = "4"
+    console.log(anything)
+    const tyof = typeof anything;
+   console.log(tyof)
+    document.getElementById("display-element3").innerHTML = tyof;
 
   }
 
@@ -64,52 +81,79 @@ const stringToNumber = (str) =>{
 
 const add = (num1 , num2) => {
 
-  return num1 + num2;
+  // return num1 + num2;
+
+  num1 = 1
+  num2 = 574
+  const plusses = num1 +num2
+  document.getElementById("display-element4").innerHTML = plusses;
+
 
 }
 
 
 // Write a JavaScript program that runs only when 2 things are true.
 
-const true1 = true
-const true2 = true
+// const true1 = true
+// const true2 = true
 
 const t2t = (true1 , true2) => {
 
-if (true1 && true2)
+  true1 = true
+  true2 = true
+
+ if (true1 && true2) {
+  show = "TRUFY"
+ }
+
+ document.getElementById("display-element5").innerHTML = show;
 
 
-return "1 and 2 are true"
+// return "1 and 2 are true"
 }
 
-t2t(true1 , true2)
+// t2t(true1 , true2)
 
 
 // Write a JavaScript program that runs when 1 of 2 things are true.
 
 
-const t2f = (true1 , false1) => {
+const t2f = (true10 , false1) => {
 
-if (true1 || false1)
+  true10 = true
+  false1 = false
 
-
-return "1 is true and 2 is false"
+if (true10 || false1){
+  exhibit = "we hold specifically one of these truths to be self evident"
 }
 
-t2t(true1 , false1)
+document.getElementById("display-element6").innerHTML = exhibit;
+
+// return "1 is true and 2 is false"
+}
+
+// t2t(true1 , false1)
 
 // Write a JavaScript program that runs when both things are not true.  
 
 
-const f2f = (true1 , false1) => {
+const f2f = (true11 , false11) => {
 
-if (!true1 && !false1)
+true11 = false
+false11 = false
+
+if (!true11 && !false11){
+
+  haha = "false af"
+
+}
+document.getElementById("display-element7").innerHTML = haha;
 
 
-return "1 and 2 are false"
+// return "1 and 2 are false"
 }
 
-f2f(true1 , false1)
+// f2f(true1 , false1)
 
 // ***************************
 //         PART TWO
