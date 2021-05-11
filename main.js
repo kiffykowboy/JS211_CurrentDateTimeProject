@@ -19,8 +19,6 @@ const displayDate = () => {
 // const num = 74
 
 const numberToString = (num) =>{
-  num = 74
-  console.log(num)
   // return num.toString();
   const strNum = num.toString()
   console.log(typeof strNum)
@@ -35,8 +33,6 @@ const numberToString = (num) =>{
 const stringToNumber = (str) =>{
 
   // return Number(str);
-  str = "4"
-  console.log(str)
   const numStr = Number(str);
   console.log(typeof numStr)
 
@@ -57,14 +53,12 @@ const stringToNumber = (str) =>{
   const input4 = {}
   const input5 = []
 
-  const nameOfFunction = (anything) =>{
+  const typeOfFunction = (anything) =>{
 
     // return typeof(anything)
 
-    anything = "4"
-    console.log(anything)
     const tyof = typeof anything;
-   console.log(tyof)
+    console.log(tyof)
     document.getElementById("display-element3").innerHTML = tyof;
 
   }
@@ -83,9 +77,7 @@ const add = (num1 , num2) => {
 
   // return num1 + num2;
 
-  num1 = 1
-  num2 = 574
-  const plusses = num1 +num2
+  const plusses = num1 + num2
   document.getElementById("display-element4").innerHTML = plusses;
 
 
@@ -98,9 +90,6 @@ const add = (num1 , num2) => {
 // const true2 = true
 
 const t2t = (true1 , true2) => {
-
-  true1 = true
-  true2 = true
 
  if (true1 && true2) {
   show = "TRUFY"
@@ -120,9 +109,6 @@ const t2t = (true1 , true2) => {
 
 const t2f = (true10 , false1) => {
 
-  true10 = true
-  false1 = false
-
 if (true10 || false1){
   exhibit = "we hold specifically one of these truths to be self evident"
 }
@@ -138,9 +124,6 @@ document.getElementById("display-element6").innerHTML = exhibit;
 
 
 const f2f = (true11 , false11) => {
-
-true11 = false
-false11 = false
 
 if (!true11 && !false11){
 
